@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../frontendreact"
+		},
+		{
+			"path": "../../../../../vs"
+		},
+		{
+			"path": "../../../../../javapractice"
+		},
+		{
+			"path": "../../../../../Websites"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Websites"
+	}
+}

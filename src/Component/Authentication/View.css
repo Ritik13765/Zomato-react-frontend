@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainview{
+    background-color: paleturquoise;
+    /* margin-left: 10px; */
+    height: 80px;
+}
+.insideonelogo{
+    /* background-color: red; */
+    height: 120px;
+}
+.insideonelogo img{
+    height: 40px;
+    margin-left: 40px;
+    width: 220px;
+}
+.insideonelogo h1{
+margin-left: 25vw;
+margin-top: -35px;
+}
+.firstinput{
+    /* background-color: green; */
+    height: 25px;
+    margin-left: 40vw;
+    margin-top: -108px;
+    width: 265px;
+}
+.firstinput input{
+    height: 30px;
+    width: 180px;
+    margin-top: 10px;
+}
+.firstinput button{
+    margin-left: 25px;
+    height: 26px;
+    width: 60px;
+    border: none;
+    background-color: red;
+}
+
+.containerview{
+    /* background-color: aqua; */
+    height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.headingtop h2{
+    font-size: 30px;
+    margin-left: 23px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.maincardscontain{
+    height: 80vh;
+    width: 70vw;
+    display: flex;
+    display: inline;
+    /* background-color: pink; */
+}
+
+.direction{
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 43vh;
+    width: 21vw;
+    /* background-color: yellow; */
+    display: inline-block;
+}
+
+.card-img-top{
+    height: 30vh;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.list-group-item{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.list-group-item h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.list-group-item h5{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.list-group-item h6{
+    font-size: 13px;
+    font-weight: 400;
+}
+/* .cardone-body img{
+    
+} */
