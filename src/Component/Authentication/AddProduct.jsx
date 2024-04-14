@@ -1,10 +1,13 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import './Addproduct.css'
 import {useNavigate, useParams } from 'react-router-dom'
 import { createClient } from '@supabase/supabase-js';
 const supabaseUrl = 'https://dtwiwrihwwzbqxppveks.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR0d2l3cmlod3d6YnF4cHB2ZWtzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTEwMTM5MjksImV4cCI6MjAyNjU4OTkyOX0.HiKXUFPC5QSGElfL_I11RClcN97lpPj3235Fq1y3nYg';
 const supabase = createClient(supabaseUrl, supabaseKey);
+
+
 
 const AddProduct = () => {
 
@@ -59,27 +62,27 @@ const AddProduct = () => {
 
 
   return (
-    <div>
-        <h2>Add Product</h2>
-        <form onSubmit={handleSubmit}>
+    <div className='fullformofproduct'>
+       <div className='hedo'> <h2>Add Product</h2> </div>
+        <form className='hallinput' onSubmit={handleSubmit}>
             <div className='form-group'>
-                <label>Name:</label>
-                <input type="text" name='name' value={restaurantData.name} onChange={handleChange}/>
+                {/* <label>Name:</label> */}
+                <input className='setallbox' type="text" name='name' value={restaurantData.name} onChange={handleChange} placeholder='Product Name'/>
             </div>
             <div className="form-group">
-          <label>Price:</label>
-          <input type="text" name="price" value={restaurantData.price} onChange={handleChange} required />
+          {/* <label>Price:</label> */}
+          <input className='setallbox' type="text" name="price" placeholder='Price' value={restaurantData.price} onChange={handleChange} required />
         </div>
         <div className="form-group">
-          <label>Description:</label>
-          <input type="text" name="description" value={restaurantData.description} onChange={handleChange} required />
+          {/* <label>Description:</label> */}
+          <input className='setallbox' type="text" name="description" placeholder='Description' value={restaurantData.description} onChange={handleChange} required />
         </div>
         <div className="form-group">
-          <label>Image:</label>
-          <input type="file" onChange={handleImageChange} accept="image/*" required />
+          {/* <label>Image:</label> */}
+          <input className='setallbox' type="file" onChange={handleImageChange} accept="image/*" required />
         </div>
 
-        <button type="submit">Add Product</button>
+        <button id='addfinish' type="submit">Add Product</button>
         </form>
     </div>
   )

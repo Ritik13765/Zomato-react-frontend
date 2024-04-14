@@ -63,13 +63,14 @@ const View = () => {
           
         {search.map((res, index) => (
   <div onClick={ ()=>   showFood(res._id)}   key={index} className="direction">
-    <div className="card-oneimagine">  <img src={res.image} className="card-img-top" alt="Restaurant" /></div>
+    <div>  <img src={res.image} className="card-img-top" alt="Restaurant" /></div>
    
    
     <div className="cardone-body">
     <div className="list-group-item"> <h4>{res.name} </h4> </div>
       <div className="list-group-item"> <h5>{res.address} </h5> </div>
     <div className="list-group-item"> <h6>{res.descriptions} </h6> </div>
+    
      
     </div>
     

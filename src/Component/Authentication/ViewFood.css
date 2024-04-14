@@ -1,6 +1,6 @@
-#restroImage{
-    width: 80vw;
-    height: 200px;
+/* #restroImage{
+    width: 60vw;
+    height: 250px;
     object-fit: cover;
     border-radius: 15px;
   }
@@ -16,12 +16,11 @@
   }
   #parent {
     width: 80%;
-    margin: 0 auto; /* Center the element horizontally */
+    margin: 0 auto; 
     padding: 20px;
     font-family: Arial, sans-serif;
   }
   
-  /* Rest of the CSS remains the same */
   
   #quantity{
     padding-left: 10px;
@@ -126,3 +125,309 @@
   #quanity_button button:hover {
     background-color: #0056b3;
   }
+
+
+  .secondcontainerview{
+    margin-top: 100px;
+    
+    height: 50vh;
+    width: 25vw;
+    padding-left: 100px;
+    padding-right: 100px;
+
+  }
+
+  .secondcontainer{
+    margin-top: 200px;
+    height: 0vh;
+    width: 30vw;
+    
+
+    height: 80vh;
+    
+  }
+
+  .secondcardimage{
+
+    margin-right: 10vw;
+    height: 35vh;
+    width: 25vw;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  .list-2-item{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .list-2-item h1{
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .list-2-item h2{
+    font-size: 15px;
+    font-weight: 500;
+
+  }
+
+  .list-2-item h3{
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ *{
+  margin: 0;
+  padding: 0;
+}
+.grandparents{
+  margin-left: 50px;
+  margin-right: 90px;
+  /* background-color: aqua; */
+}
+
+.maincontaine{
+  height: 7.5vh;
+  margin-top: 5px;
+  display: inline-flex;
+  /* display: inline-block; */
+/* background-color: red; */
+
+  margin-left: -25px;
+}
+.imgelogo{
+ padding-top: 10px;
+ margin-left: 124px;
+ margin-right: 40px;
+ /* background-color: red; */
+}
+.imgelogo img{
+  height: 4vh;
+}
+
+.immageserachbox{
+  background-color:rgba(255, 255, 255, 0.719);
+  width: 600px;
+  padding-top: 1px;
+  box-shadow: 0.1px 0.1px 0.1px #5f5f5f,
+  0px 0px 0px 1px #ecf0f3,
+   1.2px 1.2px 1.2px #a7aaaa,
+   -2px -2px 2px #ffffff;
+   border-radius: 5px 5px 5px 5px;
+}
+
+#fieldss{
+  height: 38px;
+  width: 200px;
+  font-size: 15px;
+  color: rgb(68, 67, 67);
+  /* background-color:rgb(193, 41, 41); */
+  border: none;
+  margin-left: 20px;
+}
+.option34{
+  width: 120px;
+  height: 38px;
+  /* margin-top:-3vh; */
+  /* background-color: red; */
+  border: none;
+  font-size: 15px;
+  color: gray;
+  margin-left: -180px;
+  
+}
+#searchicon{
+ color: gray;
+ margin-right:10px ;
+ margin-bottom: -5px;
+ margin-left: 10px;
+
+}
+#locationicon{
+  color: red;
+  height: 30px;
+  margin-right: 200px;
+ margin-left: 10px;
+  margin-bottom: -8px;
+}
+#lineicon{
+  color: gray;
+ margin-bottom: -5px;
+ margin-left: 35px;
+}
+.lohin{
+padding-top: 10px;
+padding-bottom: 10px;
+margin-left: 80px;
+font-size: 23px;
+color: #5f5f5f;
+/* background-color: yellow; */
+}
+.singhin{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 55px;
+  font-size: 23px;
+  color: #5f5f5f;
+  /* background-color: red; */
+}
+.button_cart{
+  /* background-color:blue; */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 210px;
+  padding-right: 190px;
+}
+#vbutton{
+  height: 50px;
+  width: 150px;
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+#vbutton button{
+  height: 50px;
+  width: 160px;
+  color: white;
+  font-size: 20px;
+  background-color: red;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}
+.resturant-product-conatiner{
+  padding-left: 172px;
+  padding-right: 146px;
+  margin-top: 10px;
+  /* background-color: red; */
+  
+}
+.resturantconatinerd{
+  /* background-color: red; */
+  margin-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 71vw;
+  box-shadow: 0.1px 0.1px 0.1px #5f5f5f,
+  0px 0px 0px 1px #ecf0f3,
+   1.2px 1.2px 1.2px #a7aaaa,
+   -2px -2px 2px #ffffff;
+   border-radius: 5px 5px 5px 5px ;
+}
+#restroImaged{
+  height: 30vh;
+  width: 70.3vw;
+  border-radius: 15px 15px 15px 15px;
+}
+#rheading{
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #302e2e;
+}
+.product-card-conatiner{
+  /* background-color: purple; */
+  width: 72vw;
+  margin-top: 15px;
+  display: flex;
+  display: inline-block;
+  
+}
+.product-card{
+  height: 50vh;
+  margin-left: 10px;
+  display: inline-block;
+  box-shadow: 0.1px 0.1px 0.1px #5f5f5f,
+  0px 0px 0px 1px #ecf0f3,
+   1.2px 1.2px 1.2px #a7aaaa,
+   -2px -2px 2px #ffffff;
+}
+#prodimage{
+  height: 25vh;
+  width: 23vw;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#pname{
+  font-size: 20px;
+  font-weight: 500;
+  color: #1a1818;
+  padding-left: 5px;
+}
+#pdescriptions{
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1818;
+  padding-left: 5px;
+}
+#pprice{
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1818;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+#addplusminis{
+  height: 25px;
+  width: 100px;
+  margin-top: 5px;
+ margin-left: 10px;
+ background-color: blue;
+ border: none;
+ border-radius: 5%;
+}
+
+#plusbutton{
+  width: 40px;
+  height: 40px;
+  border-radius: 6px 6px 6px 6px;
+  font-size: 20px;
+  border: none;
+  background-color: red;
+  color: #ffffff;
+}
+
+#minusbutton{
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px 6px 6px 6px;
+  font-size: 20px;
+  border: none;
+  background-color: red;
+  color: #ffffff;
+}
